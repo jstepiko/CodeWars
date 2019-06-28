@@ -19,4 +19,4 @@ function doubles(maxk, maxn) {
     return sum;
 }
 
-console.log(doubles(1,10));
+console.log(doubles(1,10)); //0.5580321939764581
