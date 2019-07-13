@@ -16,3 +16,6 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
     }
     return pontoonDistance/youSpeed < sharkDistance/sharkSpeed ? "Alive!" : "Shark Bait!";
 }
+
+console.log(shark(40, 35, 3, 20, true)); // "Shark Bait!"
+console.log(shark(7, 8, 3, 4, true)); // "Alive!"
